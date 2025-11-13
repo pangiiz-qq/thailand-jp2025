@@ -1339,7 +1339,7 @@ Utility u-
   -webkit-transition: all ease-in-out 0.8s;
   transition: all ease-in-out 0.8s;
 }
-.u-fadeIn.u-scrollIn {
+.u-fadeIn .u-scrollIn {
   opacity: 1;
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
