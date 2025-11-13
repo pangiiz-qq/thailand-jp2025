@@ -701,21 +701,26 @@ title
   }
 }
 
+.h2box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .h2title {
   font-family: "EB Garamond", serif;
   position: relative;
   color: #121e34;
-  font-size: 3.6rem;
+  font-size: 4.5rem;
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 50px;
   z-index: 1;
-  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .h2title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 40px;
+    line-height: 1.2;
   }
 }
 .h2title:after {
@@ -738,7 +743,7 @@ title
 
 .h3title {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   line-height: 4rem;
   display: inline-block;
   z-index: 1;
@@ -950,6 +955,43 @@ list
   .c-list01_title {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+.image_item {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: auto;
+}
+@media screen and (max-width: 767px) {
+  .image_item {
+    margin-bottom: 10px;
+  }
+}
+
+.image_item01 {
+  text-align: center;
+  margin-bottom: 15px;
+  width: 191px;
+}
+@media screen and (max-width: 767px) {
+  .image_item01 {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+
+.image_item02 {
+  text-align: center;
+  margin-bottom: 15px;
+  width: 340px;
+}
+@media screen and (max-width: 767px) {
+  .image_item02 {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
   }
 }
 
@@ -1339,7 +1381,7 @@ Utility u-
   -webkit-transition: all ease-in-out 0.8s;
   transition: all ease-in-out 0.8s;
 }
-.u-fadeIn .u-scrollIn {
+.u-fadeIn.u-scrollIn {
   opacity: 1;
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -1347,5 +1389,28 @@ Utility u-
 }
 
 /*-------------------------------------------
-Image Block
+Decorattion
 -------------------------------------------*/
+.catch-img-wrap {
+  margin-bottom: 30px;
+}
+
+.catch-img-wrap .border-top {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.catch-img-wrap .border-bottom {
+  position: absolute;
+  width: 100%;
+  transform: scaleY(-1) scaleX(-1);
+  bottom: -1px;
+}
+
+.bg-side-deco {
+  background-image: url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_02.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_03.png);
+  background-size: 15%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left 30%, left bottom, right 10%, left 60%, right 40%, right 80%;
+}
