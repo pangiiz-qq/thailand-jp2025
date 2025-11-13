@@ -1409,7 +1409,7 @@ Decorattion
 }
 
 .bg-side-deco {
-  background-image: url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_02.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_03.png);
+  background-image: url(./common/images/img_bg_deco_01.png), url(./common/images/img_bg_deco_02.png), url(./common/images/img_bg_deco_03.png), url(./common/images/img_bg_deco_01.png), url(./common/images/img_bg_deco_03.png), url(./common/images/img_bg_deco_03.png);
   background-size: 15%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left 30%, left bottom, right 10%, left 60%, right 40%, right 80%;
