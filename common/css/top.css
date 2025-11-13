@@ -464,16 +464,6 @@ header
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 1280px) {
-  .header_c {
-    padding-left: 180px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .header_c {
-    padding-left: 80px;
-  }
-}
 
 .header_logo {
   opacity: 0;
@@ -1406,7 +1396,7 @@ Decorattion
 }
 
 .bg-side-deco {
-  background-image: url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_02.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_03.png), url(./images/img_bg_deco_03.png);
+  background-image: url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_02.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_03.png);
   background-size: 15%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left 30%, left bottom, right 10%, left 60%, right 40%, right 80%;
