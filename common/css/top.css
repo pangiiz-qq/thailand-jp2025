@@ -486,63 +486,7 @@ header
 /*---------------------------------------------------------
 anchor
 ------------------------------------------------------------*/
-/* .anchor-link-wrap {
-  background-color: #f6f5f2;
-  position: relative;
-  bottom: -70px;
-}
 
-.anchor-link-inrwrap {
-  background-color: #f5efe0;
-  padding: 34px 30px 30px;
-  border-radius: 6px;
-  max-width: 824px;
-  margin: 0 auto 0;
-  position: relative;
-  top: -70px;
-  border: 2px solid #121e34;
-}
-
-.anchor-link-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -40px;
-  margin-bottom: -20px;
-}
-.anchor-link-list > li {
-  width: calc(50% - 40px);
-  margin-right: 40px;
-  margin-bottom: 20px;
-}
-
-.anchor-link {
-  color: #121e34;
-  font-weight: bold;
-  text-decoration: none;
-  padding-right: 40px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #d7a31a;
-  display: block;
-  position: relative;
-  font-size: 20px;
-}
-@media screen and (max-width: 767px) {
-  .anchor-link {
-    font-size: 14px;
-  }
-}
-
-.anchor-link::after {
-  content: "";
-  width: 18px;
-  height: 7px;
-  background: url(/blue-taste/common/images/icon_anchor_arrow.png) center no-repeat;
-  background-size: contain;
-  position: absolute;
-  right: 0;
-  filter: sepia();
-  top: calc(50% - 3px);
-} */
 /*------------------------------------------------------------
 layout
 ------------------------------------------------------------*/
@@ -694,6 +638,7 @@ title
   justify-content: center;
   align-items: center;
 }
+
 .h2title {
   font-family: "EB Garamond", serif;
   position: relative;
@@ -770,36 +715,6 @@ body.en .h3title:after {
   .h4title {
     font-size: 2rem;
     margin-bottom: 10px;
-  }
-}
-.c-subtitle01 {
-  font-family: "Noto Serif JP", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "MS P明朝", "MS 明朝", serif;
-  position: relative;
-  color: #f6f5f2;
-  font-size: 35px;
-}
-@media screen and (max-width: 767px) {
-  .c-subtitle01 {
-    font-family: "Noto Serif JP", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "MS P明朝", "MS 明朝", serif;
-    position: relative;
-    color: #f6f5f2;
-    font-size: 25px;
-  }
-}
-.c-title01:after {
-  content: "";
-  position: absolute;
-  left: -5px;
-  right: -5px;
-  bottom: 22px;
-  height: 7px;
-  margin: 0 auto;
-  z-index: -1;
-}
-@media screen and (max-width: 767px) {
-  .c-title01:after {
-    bottom: 12px;
-    height: 4px;
   }
 }
 
@@ -1396,7 +1311,7 @@ Decorattion
 }
 
 .bg-side-deco {
-  background-image: url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_02.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_01.png), url(/common/images/img_bg_deco_03.png), url(/common/images/img_bg_deco_03.png);
+  background-image: url(../common/images/img_bg_deco_01.png), url(../common/images/img_bg_deco_02.png), url(../common/images/img_bg_deco_03.png), url(../common/images/img_bg_deco_01.png), url(../common/images/img_bg_deco_03.png), url(../common/images/img_bg_deco_03.png);
   background-size: 15%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left 30%, left bottom, right 10%, left 60%, right 40%, right 80%;
