@@ -173,7 +173,6 @@ option {
 input[type="submit"],
 button {
   border-radius: 0;
-  -webkit-appearance: none;
 }
 
 table {
@@ -691,7 +690,6 @@ title
   bottom: 22px;
   height: 7px;
   margin: 0 auto;
-  background-color: ;
   z-index: -1;
 }
 @media screen and (max-width: 767px) {
@@ -806,7 +804,6 @@ body.en .h3title:after {
   bottom: 22px;
   height: 7px;
   margin: 0 auto;
-  background-color: ;
   z-index: -1;
 }
 @media screen and (max-width: 767px) {
