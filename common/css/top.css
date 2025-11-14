@@ -958,6 +958,12 @@ TOP
   padding: 80px 60px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .top_mv {
+    padding: 20px;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .top_mv {
     padding: 10px;
@@ -971,9 +977,21 @@ TOP
   background-size: cover !important;
 }
 
+@media only screen and (max-width: 1366px) {
+  .top_mv_item {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .top_mv_item {
+    height: 25vh;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .top_mv_item {
-    height: 162px;
+    height: 18vh;
   }
 }
 
